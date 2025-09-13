@@ -1,0 +1,64 @@
+Switch-case
+
+Shartlar ko‘p bo‘lsa, if/else o‘rniga switch ishlatiladi.
+
+let kun = "juma";
+
+switch(kun){
+    case "dushanba": console.log("Hafta boshlanishi"); break;
+    case "juma": console.log("Bugun juma, kayfiyat zo‘r"); break;
+    case "yakshanba": console.log("Dam olish kuni"); break;
+    default: console.log("Bunday kun yo‘q");
+}
+
+String methodlari
+
+.length → uzunlikni beradi.
+
+.toUpperCase() → hammasini katta harf qiladi.
+
+.toLowerCase() → kichik harf qiladi.
+
+.includes("so‘z") → ichida bor-yo‘qligini tekshiradi.
+
+.slice(0,3) → qirqib beradi.
+
+.replace("eski","yangi") → almashtiradi.
+
+let txt = "Salom Ali";
+console.log(txt.length);        // 9
+console.log(txt.toUpperCase()); // "SALOM ALI"
+console.log(txt.includes("Ali")); // true
+
+Math object
+
+JavaScript’da mat. ishlar uchun maxsus obyekt:
+
+Math.round(son) → yaxlitlaydi.
+
+Math.floor(son) → pastga qarab yaxlitlaydi.
+
+Math.ceil(son) → tepaga qarab yaxlitlaydi.
+
+Math.max(a,b,...) → eng kattasini beradi.
+
+Math.min(a,b,...) → eng kichigini beradi.
+
+Math.random() → 0–1 orasida random son.
+
+Math.pow(a,b) → daraja (a^b).
+
+Math.sqrt(x) → ildiz.
+
+console.log(Math.max(3, 10, 5)); // 10
+console.log(Math.sqrt(25));      // 5
+console.log(Math.random());      // tasodifiy son
+
+
+Xullas:
+
+switch-case → ko‘p shartlarni boshqarish.
+
+string methods → matnni aylantirib turish.
+
+Math object → matematik hisob-kitoblar.
