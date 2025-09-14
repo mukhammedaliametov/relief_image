@@ -1,11 +1,14 @@
 import React from 'react';
 import './task';
+import Header from './components/Header';
+import Hero from './components/Hero';
 
 const App = () => {
   return (
-    <div>
-      <h1 className='underline text-center text-3xl font-semibold'>hello world</h1>
-    </div>
+    <>
+    <Header />
+    <Hero />
+    </>
   );
 };
 
