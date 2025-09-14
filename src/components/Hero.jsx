@@ -20,7 +20,7 @@ const Hero = () => {
             <img
               src={Logo}
               alt="logo"
-              className="w-[171px] md:w-[267px] mx-auto md:mx-0"
+              className="w-[171px] md:w-[267px] mx-auto md:mx-0 mt-[50px] md:mt-0"
             />
             <h1 className="text-[26px]/[30px] md:text-[42px]/[42px] font-playfair text-white w-[258px] md:w-[472px]">
               Благоустройство и озеленение участков
@@ -42,7 +42,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="realtive hidden md:flex items-center justify-center w-full">
-          <div className="flex items-center justify-evenly absolute -bottom-20 md:-bottom-12  bg-[#211A15DE] w-[92%] rounded-[5px] py-[10px]">
+          <div className="flex items-center justify-evenly absolute -bottom-20 md:-bottom-12  bg-[#211A15DE] w-[100%] xl:w-[1220px] rounded-[5px] py-[10px]">
             <div className="text-center text-caramel font-roboto font-[300]">
               <img src={Icon1} alt="icon1" className="mx-auto w-[45px] h-[57px] mb-[8px]" />
               <p>Опыт работы более 10 лет</p>

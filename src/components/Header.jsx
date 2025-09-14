@@ -14,7 +14,7 @@ const Header = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full bg-[#25491F4F] backdrop-blur-[10px] py-[15px]">
+    <div className="fixed w-full bg-[#25491F4F] backdrop-blur-[10px] py-[15px] z-999">
       <div className="max-w-[1220px] mx-auto px-[16px] lg:px-0 flex items-center justify-between font-roboto font-[300]">
         <div onClick={handleClick} className="block md:hidden text-[22px] text-white">
             {nav ? <MdClose /> : <MdMenu />}
