@@ -5,14 +5,14 @@ import Logo from "../assets/caramel_logo.svg";
 const Garden = () => {
   return (
     <div
-      className="relative w-full min-h-[100vh] bg-cover bg-center z-10 p-[20px]"
+      className="relative w-full min-h-[100vh] bg-cover bg-center z-10 lg:p-[20px]"
       style={{ backgroundImage: `url(${background})` }}
     >
       <div className="absolute top-0 left-0 bg-[#00000070] w-full h-screen -z-1"></div>
       <div className="z-10 max-w-[1220px] mx-auto px-[16px] md:px-0">
         <div className="text-center mx-auto">
           <img src={Logo} alt="logo" className="w-[38px] mx-auto" />
-          <p className="w-[320px] h-[1px] bg-caramel mx-auto"></p>
+          <p className="w-[220px] lg:w-[320px] h-[1px] bg-caramel mx-auto"></p>
           <h3 className="font-playfair text-[26px] md:text-[28px] text-caramel mb-[-8px]">
             УХОД ЗА САДОМ
           </h3>
@@ -24,7 +24,7 @@ const Garden = () => {
           Доверьтесь нашим опытным садоводам! И мы гарантируем качество работ,
           здоровый сад, а самое главное ваше сэкономленное время.
         </p>
-        <div className="bg-white font-roboto w-[97%] mx-auto rounded-[5px] border border-[#00000040] shadow shadow-[#00000040] py-[30px] px-[20px]">
+        <div className="bg-white font-roboto w-full lg:w-[97%] mx-auto rounded-[5px] border border-[#00000040] shadow shadow-[#00000040] py-[15px] md:py-[30px] px-[20px]">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="flex flex-col gap-[10px]">
               <button className="py-[15px] px-[50px] border-1 border-[#00000033] shadow shadow-[#00000040] cursor-pointer">СЕЗОННЫЕ ВЫЕЗДЫ</button>
