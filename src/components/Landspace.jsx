@@ -10,7 +10,6 @@ import Landspace7 from "../assets/landspace7.png";
 import Landspace8 from "../assets/landspace8.png";
 import Landspace9 from "../assets/landspace9.png";
 import Landspace10 from "../assets/landspace10.png";
-import { RiArrowDownWideLine } from "react-icons/ri";
 
 const Landspace = () => {
   const landspaceData = [
@@ -35,8 +34,8 @@ const Landspace = () => {
   ];
 
   return (
-    <div className="max-w-[1220px] mx-auto px-[16px] lg:px-0 my-[30px]">
-      <div className="text-center mx-auto">
+    <div className="max-w-[1220px] mx-auto px-[16px] lg:px-0 my-[30px]" id="landspace">
+      <div data-aos="zoom-in" className="text-center mx-auto">
         <img
           src={decoration1}
           alt="decoration1"
@@ -46,7 +45,7 @@ const Landspace = () => {
           ЛАНДШАФТ
         </h3>
       </div>
-      <p className="bg-[#39362FCC] p-[20px] text-caramel rounded-[5px] my-[40px] font-roboto font-[300] tracking-[1px] text-[14px]/[24px] md:text-[16px]/[26px] text-justify md:text-left">
+      <p data-aos="fade-up" className="bg-[#39362FCC] p-[20px] text-caramel rounded-[5px] my-[40px] font-roboto font-[300] tracking-[1px] text-[14px]/[24px] md:text-[16px]/[26px] text-justify md:text-left">
         Ландшафтный дизайн помогает обеспечить красивый вид вокруг вашего дома.
         Ведь участок должен выглядеть эстетично, иметь логическую структуру и
         радовать глаз. Чтобы избежать лишних разочарований, необходимо грамотно
@@ -57,6 +56,7 @@ const Landspace = () => {
         {landspaceData.map((item, idx) => (
           <div
             key={idx}
+            data-aos="fade-up"
             className="lg:last:col-start-2 lg:last:col-end-3 "
           >
             <p className="py-[8px]">{item.name}</p>

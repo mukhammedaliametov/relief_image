@@ -16,7 +16,7 @@ const Hero = () => {
     >
       <div className="max-w-[1220px] mx-auto px-[16px] lg:px-0 w-full">
         <div className="flex flex-col md:flex-row items-center justify-between">
-          <div className="text-center md:text-left">
+          <div data-aos="fade-up" className="text-center md:text-left">
             <img
               src={Logo}
               alt="logo"
@@ -42,7 +42,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="realtive hidden md:flex items-center justify-center w-full">
-          <div className="flex items-center justify-evenly absolute -bottom-20 md:-bottom-12  bg-[#211A15DE] w-[100%] xl:w-[1220px] rounded-[5px] py-[10px]">
+          <div data-aos="fade-up" className="flex items-center justify-evenly absolute -bottom-20 md:-bottom-12  bg-[#211A15DE] w-[95%] xl:w-[1220px] rounded-[5px] py-[10px]">
             <div className="text-center text-caramel font-roboto font-[300]">
               <img src={Icon1} alt="icon1" className="mx-auto w-[45px] h-[57px] mb-[8px]" />
               <p>Опыт работы более 10 лет</p>

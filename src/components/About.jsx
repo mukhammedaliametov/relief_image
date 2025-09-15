@@ -6,9 +6,9 @@ const About = () => {
     const [about, setAbout] = useState(false);
     const fullAbout = () => setAbout(!about);
   return (
-    <div className="max-w-[1220px] mx-auto px-[16px] md:px-0">
-      <img src={decoration} alt="decoration" className="w-[220px] md:w-[340px] mt-[30px] md:mt-[80px] mb-[30px] mx-auto" />
-      <div className="bg-[#575249FA] w-full rounded-[5px] py-[20px] mb-[30px] px-[30px] text-caramel transition-all duration-300">
+    <div className="max-w-[1220px] mx-auto px-[16px] lg:px-0" id="aboutus">
+      <img data-aos="zoom-in" src={decoration} alt="decoration" className="w-[220px] md:w-[340px] mt-[30px] md:mt-[80px] mb-[30px] mx-auto" />
+      <div data-aos="fade-up" className="bg-[#575249FA] w-full rounded-[5px] py-[20px] mb-[30px] px-[30px] text-caramel transition-all duration-300">
         <h3 className="font-playfair pb-[10px] text-[20px] md:text-[22px]">О КОМПАНИИ</h3>
         <div className={`overflow-hidden transition-all duration-300 ${about ? 'h-full' : 'h-[293px] sm:h-auto'}`}>
         <p className="font-roboto font-[300] tracking-[1px] text-[14px]/[24px] md:text-[16px]/[26px] text-justify md:text-left">

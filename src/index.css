@@ -8,3 +8,7 @@
     --color-caramel: #FFDF9E;
     --color-dark-green: #34642C;
 }
+
+html{
+    scroll-behavior: smooth;
+}

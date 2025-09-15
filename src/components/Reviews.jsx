@@ -23,8 +23,8 @@ const Reviews = () => {
   },
 ];
   return (
-    <div className="max-w-[1220px] mx-auto px-[16px] lg:px-0 my-[60px]">
-      <div className="text-center mx-auto">
+    <div className="max-w-[1220px] mx-auto px-[16px] lg:px-0 my-[60px]" id="reviews">
+      <div data-aos="zoom-in" className="text-center mx-auto">
         <img
           src={decoration1}
           alt="decoration1"
@@ -34,7 +34,7 @@ const Reviews = () => {
           ОТЗЫВЫ
         </h3>
       </div>
-      <div className="font-roboto flex overflow-x-scroll md:overflow-visible items-top gap-[30px] my-[50px] lg:justify-center">
+      <div className="font-roboto flex overflow-x-scroll lg:overflow-visible items-top gap-[30px] my-[50px] lg:justify-center">
         {reviews.map((item) => (
             <div className="w-[300px] md:w-[360px] flex-shrink-0">
             <img src={item.avatar} alt={item.name} className="mx-auto" />

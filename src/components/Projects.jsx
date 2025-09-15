@@ -7,9 +7,9 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 
 const Projects = () => {
   return (
-    <div className="max-w-[1220px] mx-auto px-[16px] md:px-0">
+    <div className="max-w-[1220px] mx-auto px-[16px] md:px-0" id="projects">
       <div className="flex items-end justify-between">
-        <div className="text-center mx-auto">
+        <div data-aos="zoom-in" className="text-center mx-auto">
           <img
             src={decoration1}
             alt="decoration1"
